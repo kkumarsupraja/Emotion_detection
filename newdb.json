@@ -1,0 +1,51 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"newdb"},
+{"type":"table","name":"attendance","database":"newdb","data":
+[
+{"emp_id":"66","name":"SUPRAJA","entry_time":"2022-05-29 10:13:46","emotion":"neutral"},
+{"emp_id":"67","name":"SUPRAJA","entry_time":"2022-05-29 10:29:07","emotion":"angry"},
+{"emp_id":"68","name":"SUPRAJA","entry_time":"2022-05-29 10:34:11","emotion":"angry"},
+{"emp_id":"69","name":"SUPRAJA","entry_time":"2022-05-29 10:36:06","emotion":"happy"},
+{"emp_id":"70","name":"SUPRAJA","entry_time":"2022-05-29 10:44:50","emotion":"angry"},
+{"emp_id":"71","name":"SUPRAJA","entry_time":"2022-05-29 10:49:03","emotion":"angry"},
+{"emp_id":"72","name":"SUPRAJA","entry_time":"2022-05-29 10:50:25","emotion":"angry"},
+{"emp_id":"73","name":"SUPRAJA","entry_time":"2022-05-29 10:53:48","emotion":"angry"},
+{"emp_id":"74","name":"SUPRAJA","entry_time":"2022-05-29 10:55:24","emotion":"happy"},
+{"emp_id":"75","name":"SUPRAJA","entry_time":"2022-05-29 11:06:43","emotion":"sad"},
+{"emp_id":"76","name":"SUPRAJA","entry_time":"2022-05-29 11:09:53","emotion":"angry"},
+{"emp_id":"77","name":"SUPRAJA","entry_time":"2022-05-29 11:11:55","emotion":"angry"},
+{"emp_id":"78","name":"SUPRAJA","entry_time":"2022-05-29 11:14:18","emotion":"neutral"},
+{"emp_id":"79","name":"SUPRAJA","entry_time":"2022-05-29 11:16:23","emotion":"happy"},
+{"emp_id":"80","name":"SUPRAJA","entry_time":"2022-05-29 11:17:36","emotion":"angry"},
+{"emp_id":"81","name":"SUPRAJA","entry_time":"2022-05-29 11:20:40","emotion":"neutral"},
+{"emp_id":"82","name":"SUPRAJA","entry_time":"2022-05-29 11:22:40","emotion":"neutral"},
+{"emp_id":"83","name":"SUPRAJA","entry_time":"2022-05-29 11:24:31","emotion":"sad"},
+{"emp_id":"84","name":"SUPRAJA","entry_time":"2022-05-29 11:25:40","emotion":"sad"},
+{"emp_id":"85","name":"SUPRAJA","entry_time":"2022-05-29 11:29:53","emotion":"neutral"},
+{"emp_id":"86","name":"SUPRAJA","entry_time":"2022-05-29 12:01:37","emotion":"sad"},
+{"emp_id":"87","name":"SUPRAJA","entry_time":"2022-05-29 12:04:36","emotion":"sad"},
+{"emp_id":"88","name":"SUPRAJA","entry_time":"2022-05-29 12:06:47","emotion":"neutral"},
+{"emp_id":"89","name":"SUPRAJA","entry_time":"2022-05-29 12:10:28","emotion":"sad"},
+{"emp_id":"90","name":"SUPRAJA","entry_time":"2022-05-29 12:19:32","emotion":"neutral"},
+{"emp_id":"91","name":"SUPRAJA","entry_time":"2022-05-29 12:23:24","emotion":"neutral"},
+{"emp_id":"92","name":"SUPRAJA","entry_time":"2022-05-29 12:29:07","emotion":"angry"},
+{"emp_id":"93","name":"SUPRAJA","entry_time":"2022-05-29 12:32:41","emotion":"neutral"},
+{"emp_id":"94","name":"SUPRAJA","entry_time":"2022-05-29 13:46:57","emotion":"neutral"},
+{"emp_id":"95","name":"SUPRAJA","entry_time":"2022-05-29 13:52:35","emotion":"neutral"},
+{"emp_id":"96","name":"SUPRAJA","entry_time":"2022-05-29 14:13:50","emotion":"neutral"},
+{"emp_id":"97","name":"SUPRAJA","entry_time":"2022-05-29 14:16:57","emotion":"neutral"}
+]
+}
+,{"type":"table","name":"emotion","database":"newdb","data":
+[
+{"employee_emotion":"angry","display_sentence":"Speak since you are angry and let your feelings out..we bet, you'll feel better!!"},
+{"employee_emotion":"disgust","display_sentence":"Sitting in front of the computer early in the morning can be disgusting right!"},
+{"employee_emotion":"fear","display_sentence":"Do the thing you fear to do and keep on doing it..that is the quickest and the surest way to conquer"},
+{"employee_emotion":"happy","display_sentence":"You have a beautiful smile!...keep smiling the way you do!!"},
+{"employee_emotion":"neutral","display_sentence":"A smile a day keeps the doctor away!!..so pls smile!!"},
+{"employee_emotion":"sad","display_sentence":"Pain is temporary, but quitting would last forever..don't ever give up and cheer up buddy!!!"},
+{"employee_emotion":"surprise","display_sentence":"Sometimes, the most shocking surprises are the best surprises..best things happen unexpectedly!!"}
+]
+}
+]
