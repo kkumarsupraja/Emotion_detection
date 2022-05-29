@@ -1,3 +1,4 @@
+#streamlit run c:/Users/KalyanKumar/Desktop/Project/home.py
 from sre_constants import SUCCESS
 import cv2
 import numpy as np
@@ -7,6 +8,7 @@ import streamlit as st
 from datetime import datetime
 from deepface import DeepFace
 import mysql.connector
+from PIL import Image
 
 st.title("Welcome Dear Employee")
 run = st.checkbox('Run')
@@ -106,9 +108,11 @@ while run:
                 conn.commit()
                 cursor.close()
                 conn.close()
-                st.write(ans)
+                st.title(ans)
                 s=s+1
-
+            
+                img=Image.open(r"C:\Users\KalyanKumar\Desktop\Project\new_img\Supraja_pic.jpg")
+                st.image(img,caption="Have a look at your Dream Place!!..Truly a soothing city!")
 
             while t<1:
                 conn=mysql.connector.connect(host="localhost", user="root", password="", database="newdb")
