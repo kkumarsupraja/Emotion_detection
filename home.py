@@ -1,5 +1,3 @@
-#streamlit run c:/Users/KalyanKumar/Desktop/Project/home.py
-from sre_constants import SUCCESS
 import cv2
 import numpy as np
 import face_recognition
