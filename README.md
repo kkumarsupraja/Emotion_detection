@@ -21,4 +21,17 @@ Run home.py by giving the command - streamlit run followed by location of the fi
 Using this data collected over a reasonable period of a month or so, any company/organisation can easily keep a check on the mental health of their employees which directly affects their productivity and performance at work and the benefit to the company.
 A happy, Motivated and healthy work environment can help technology reach great heights and help you and me, or rather humanity as a whole to a great extent
 
+# Few screenshots of the project-
+
+![image (2)](https://github.com/kkumarsupraja/Emotion_detection/assets/77972491/02a32773-2157-4466-87aa-2583501720cf)
+Screenshot where Person has been identified as Supraja correctly, Expression has been detected (happy) and a quote has been displayed according to emotion detected.
+
+![image](https://github.com/kkumarsupraja/Emotion_detection/assets/77972491/17062a8b-7758-4938-ab84-ef71e1d51e24)
+An image of the attendance database where attendance of employees has been marked along with date, time and emotion
+
+![image (1)](https://github.com/kkumarsupraja/Emotion_detection/assets/77972491/c9a7a63b-0060-42c5-a3a2-cc070ada995f)
+Database containing quotes that are to be displayed according to emotion of employee
+
 Good Day!!
+
+
